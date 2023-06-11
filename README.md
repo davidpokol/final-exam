@@ -40,7 +40,7 @@
 - [x] **15\.** Írjon olyan függvényt vagy metódust, amely egy karakterláncból vagy sztringből eltávolítja
   egy megadott karakter összes előfordulását!
 
-- [ ] **16\.** Írjon olyan függvényt vagy metódust, amely megszámolja egy adott karakterlánc vagy
+- [x] **16\.** Írjon olyan függvényt vagy metódust, amely megszámolja egy adott karakterlánc vagy
   sztring összes előfordulását egy másik karakterláncban vagy sztringben!
 
 - [x] **17\.** Írjon olyan függvényt vagy metódust, amely kiírja az angol kisbetűs ábécé azon betűit,
@@ -55,7 +55,7 @@
 - [x] **19\.** Írjon olyan függvényt vagy metódust, amely egy karakterláncba vagy sztringbe beszúr egy
   „a” karaktert véletlenül választott pozícióba (véletlenszám–generátor használható)!
 
-- [ ] **20\.** Adjon olyan függvényt vagy metódust, ami adott két pozitív egész paramétere esetén
+- [x] **20\.** Adjon olyan függvényt vagy metódust, ami adott két pozitív egész paramétere esetén
   megadja (n alatt a k)=n!/k!(n-k)! értékét. Használjon rekurziót!
 
 - [x] **21\.** Adjon olyan metódust vagy függvényt, ami eldönti, hogy a paramétereként megadott
@@ -66,7 +66,7 @@
   (pozitív egészekből álló) nemüres tömbben van-e olyan szám, ami az összes többinél
   többször fordul elő.
 
-- [ ] **23\.** Adjon olyan metódust vagy függvényt, ami visszaadja, hogy a paramétereként megadott
+- [x] **23\.** Adjon olyan metódust vagy függvényt, ami visszaadja, hogy a paramétereként megadott
   (pozitív egészekből álló) nemüres tömbben melyik index az, ahol a leghosszabb
   folyamatosan növekvő részsorozat kezdődik. Ha több ilyen index is van, az utolsót adja
   vissza.
@@ -99,7 +99,7 @@
 - [x] **30\.** Írjon függvényt vagy metódust, mely pozitív egész paraméterét fordítva adja vissza, pl.
   fordit(234) eredménye 432! (a megoldás során ne használjon sztringeket/karaktertömböket)
 
-- [ ] **31\.** Írjon függvényt vagy metódust, mely a paraméterként kapott 10x10-es mátrixról eldönti,
+- [x] **31\.** Írjon függvényt vagy metódust, mely a paraméterként kapott 10x10-es mátrixról eldönti,
   hogy van-e olyan eleme, mely sorában nagyobb és oszlopában pedig kisebb a többi elemnél!
 
 - [x] **32\.** Írjon függvényt vagy metódust, mely visszaadja, hogy **k**-tól **m**-ig hány olyan szám van,
@@ -107,7 +107,9 @@
 
 - [x] **33\.** Írjon függvényt vagy metódust, mely visszaadja, hogy két pozitív egész paraméterének
   legkisebb közös többszöröse hány számjegyből áll kettes számrendszerben
+
 ---
+
 <p align="center">
   <img src="https://github.com/davidpokol/final-exam/assets/90441129/09390712-41b1-4acd-82e9-79c4835983c6"/>
 </p>
