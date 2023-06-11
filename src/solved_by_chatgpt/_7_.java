@@ -1,7 +1,9 @@
+package solved_by_chatgpt;
+
 public class _7_ {
 
     public static void main(String[] args) {
-        System.out.println(getIntegerPower(00));
+        System.out.println(getIntegerPower(0));
 
         System.out.println(Math.pow(15,2));
 
