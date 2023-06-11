@@ -6,15 +6,15 @@
 
 - [x] **3\.** Írjon olyan függvényt vagy metódust, amely egy karakterláncban vagy sztringben véletlenszerűen összekeveri a karaktereket (véletlenszám–generátor használható)!
 
-- [ ] **4\.** A következő közelítő formulát használva írjon függvényt vagy metódust, amely egy valós szám négyzetgyökét adja vissza! Használja az x<sub>k+1</sub>=1/2*(x<sub>k</sub>+**a**/x<sub>k</sub>) sorozatot, amely **a** négyzetgyökéhez konvergál, ha x<sub>1</sub>=1.
+- [x] **4\.** A következő közelítő formulát használva írjon függvényt vagy metódust, amely egy valós szám négyzetgyökét adja vissza! Használja az x<sub>k+1</sub>=1/2*(x<sub>k</sub>+**a**/x<sub>k</sub>) sorozatot, amely **a** négyzetgyökéhez konvergál, ha x<sub>1</sub>=1.
 
 - [x] **5\.** Írjon függvényt vagy metódust, amely egy valós szám köbgyökét adja vissza! Használja az
   x<sub>k+1</sub>=1/3*(2*x<sub>k</sub>+**a**/x<sub>k</sub><sup>2</sup>) sorozatot, amely **a** köbgyökéhez konvergál, ha x<sub>1</sub>=1.
 
-- [ ] **6\.** Írjon függvényt vagy metódust, amely kiszámolja az n-edik Fibonacci számot! A Fibonacci
+- [x] **6\.** Írjon függvényt vagy metódust, amely kiszámolja az n-edik Fibonacci számot! A Fibonacci
   sorozatot az a<sub>n</sub>=a<sub>n-2</sub>+a<sub>n-1</sub> rekurzióval definiálja (n>2), ahol a<sub>1</sub>=a<sub>2</sub>=1.
 
-- [ ] **7\.** Írjon olyan függvényt vagy metódust, amely egy természetes számhoz visszaadja azt a legnagyobb egész kitevős hatványát, amely még éppen kisebb, mint 567!
+- [x] **7\.** Írjon olyan függvényt vagy metódust, amely egy természetes számhoz visszaadja azt a legnagyobb egész kitevős hatványát, amely még éppen kisebb, mint 567!
 
 - [x] **8\.** Írjon olyan függvényt vagy metódust, amely egy természetes szám esetén kiírja, hogy a 9-es számjegyből hány darabot tartalmaz (ne alakítsa át sztringgé/karaktertömbbé)!
 
