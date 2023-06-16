@@ -10,37 +10,25 @@ public class _18_ {
 //        long a = System.currentTimeMillis();
        String str;
 //        do {
-            str = randomString(6);
-//        } while (!str.contains("abcdef"));
+            str = randomString();
+//       } while (!str.contains("abcde"));
 //        long b = System.currentTimeMillis();
-//
+
         System.out.println(str);
-//        System.out.printf("it took %d milliseconds", b - a);
+//        System.out.printf("it took %d milliseconds", b - a);*/
     }
 
-    private static String randomString(int n) {
-        StringBuilder sb = new StringBuilder();
-        while (true) {
-            sb.setLength(0);
-            for (int i = 0; i < n; i++) {
-                char c = (char)('a' + new Random().nextInt(('z' + 1) - 'a'));
+    private static String randomString() {
 
-                boolean uniqueLetter = true;
-                for (int j = 0; j < sb.length(); j++) {
-                    if (sb.charAt(j) == c) {
-                        uniqueLetter = false;
-                        break;
-                    }
-                }
-                if (uniqueLetter) {
-                    sb.append(c);
-                } else {
-                    break;
-                }
-            }
-            if (sb.length() == n) {
-                return sb.toString();
-            }
+        StringBuilder sb = new StringBuilder();
+        Random r = new Random();
+        char c;
+        while (sb.length() < 5) {
+            do {
+                c = (char) r.nextInt('a', 'z' + 1);
+            } while (sb.toString().contains(String.valueOf(c)));
+            sb.append(c);
         }
+        return sb.toString();
     }
 }
