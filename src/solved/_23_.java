@@ -13,8 +13,7 @@ public class _23_ {
 
         int longestIndex = 0;
         int longestSize = 1;
-        int i = 1;
-        while (i < array.length) {
+        for (int i = 1; i < array.length; i++) {
 
             if (array[i] <= array[i - 1]) {
                 int j = i;
@@ -29,7 +28,6 @@ public class _23_ {
                 }
                 i = j;
             }
-            i++;
         }
         return longestIndex;
     }
