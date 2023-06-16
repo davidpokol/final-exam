@@ -17,14 +17,13 @@ public class _8_ {
         int count = 0;
 
         while (number >= 9) {
-            int a = number % 10;
 
-            if(a == 9) {
-                count ++;
+            if (number % 10 == 9) {
+                count++;
             }
-            number = number / 10;
+            number /= 10;
         }
-
+        
         return count;
     }
 }
