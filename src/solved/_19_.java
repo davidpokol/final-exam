@@ -12,12 +12,12 @@ public class _19_ {
 
         StringBuilder sb = new StringBuilder();
         int index = new Random().nextInt(s.length());
-        for (int i = 0; i <= index; i++) {
+        for (int i = 0; i < index; i++) {
 
             sb.append(s.charAt(i));
         }
         sb.append('a');
-        for (int i = index + 1; i< s.length(); i++) {
+        for (int i = index; i< s.length(); i++) {
             sb.append(s.charAt(i));
         }
         return sb.toString();
