@@ -4,31 +4,28 @@ public class _23_ {
 
     public static void main(String[] args) {
 
-        int[] example = new int[]{0,6,1,2};
-
-        System.out.println(lastLongestIndex(example));
+        int[] example = new int[]{0,0,3,1,2};
+       
+       System.out.println(lastLongestIndex(example));
     }
 
     private static int lastLongestIndex(int[] array) {
 
-        int longestIndex = 0;
-        int longestSize = 1;
-        for (int i = 1; i < array.length; i++) {
+        int maxLength = 1;
+        int currLength = 1;
+        int maxIndex = 0;
 
-            if (array[i] <= array[i - 1]) {
-                int j = i;
-                int size = 0;
-                while (j < array.length - 1 && array[j] < array[j + 1]) {
-                    j++;
-                    size++;
-                }
-                if (size >= longestSize) {
-                    longestSize = size;
-                    longestIndex = i;
-                }
-                i = j;
+        for (int i = 1; i < array.length; i++) {
+            if (array[i] > array[i - 1]) {
+                currLength++;
+            } else {
+                currLength = 1;
+            }
+            if (currLength >= maxLength) {
+                maxLength = currLength;
+                maxIndex = i - currLength + 1;
             }
         }
-        return longestIndex;
+        return maxIndex;
     }
 }
