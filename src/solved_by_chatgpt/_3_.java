@@ -17,7 +17,7 @@ public class _3_ {
     public static char[] shuffleString(char[] chars) {
         Random random = new Random();
 
-        for (int i = chars.length - 1; i > 0; i--) {
+        for (int i = chars.length - 1; i >= 0; i--) {
             int j = random.nextInt(i + 1);
             char temp = chars[i];
             chars[i] = chars[j];
