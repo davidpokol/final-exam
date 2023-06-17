@@ -11,11 +11,6 @@ public class _29_ {
 
 
     private static int afterDecimalPoint(double number) {
-
-        double fractionalPart = number - (int) number;
-
-        int  decimalDigit = (int) (fractionalPart * 10);
-
-        return decimalDigit >= 0 ? decimalDigit : -decimalDigit;
+        return Math.abs((int)(number % (int) number * 10));
     }
 }
