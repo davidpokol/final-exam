@@ -10,9 +10,8 @@ public class _32_ {
     private static int countRealDivisor(int n, int k, int m) {
 
         int result = 0;
-        int count;
         for (int i = k; i <= m; i++) {
-            count = 0;
+            int count = 0;
             for (int j = 1; j <= i; j++) {
                 if(i % j == 0) {
                     count++;
